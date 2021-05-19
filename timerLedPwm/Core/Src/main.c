@@ -103,11 +103,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  TIM4 -> CCR4 = 250; // 0.5 saniye yandı
-//	  HAL_Delay(3000); // 4 ml bekledi
+	 
+   TIM4 -> CCR4 = 250; // 0.5 saniye yandı 
+   //Channel4 kullanıldığı için CCR4 kullanıldı
 
-//	  TIM4 -> CCR4 = 750; // 1.5 saniye yandı
-//	  HAL_Delay(4000); // 3 ml bekledi
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
